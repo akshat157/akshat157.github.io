@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.page-content {
+    width: 82;
+    margin-left: 18%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .page-content {
+        width: 80%;
+        margin-left: 18%;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .page-content {
+        width: 76%;
+        margin-left: 24%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .page-content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+

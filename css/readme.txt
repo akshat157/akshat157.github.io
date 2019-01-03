@@ -1,0 +1,1 @@
+Redundency I know, but THIS FOLDER IS HERE AS A BACKUP. index.html takes the one inside /blog/assets/css/ !
