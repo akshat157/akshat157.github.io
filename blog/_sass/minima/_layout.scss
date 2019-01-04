@@ -178,6 +178,13 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  transition: 0.5s;
+}
+
+.page-content-f {
+  padding: $spacing-unit 0;
+  flex: 1;
+  transition: 0.5s;
 }
 
 .page-heading {
