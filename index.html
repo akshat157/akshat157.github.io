@@ -14,10 +14,18 @@
     <!-- favicon -->
     <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
     <!-- stylesheet -->
-    <link rel="stylesheet" type="text/css" media="screen" href="blog/assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script>
+    function checkHash() {
+        console.log("aaaaaaaaaaaaa");
+        if (window.location.hash) {
+            initial();
+        }
+    }
+    </script>
 </head>
 
-<body>
+<body onload="checkHash()">
     <div class="row-main">
         <span id="sidebar-toggle-m" class="sidebar-toggle-m">
             <i class="fas fa-angle-left"></i>
@@ -35,19 +43,23 @@
                 <ul class="nav fa-ul">
                     <li>
                         <i class="fas fa-caret-right"></i>
-                        <a href="#home" class="nav-link">Know More.</a>
+                        <a href="#" class="nav-link">Home</a>
                     </li>
                     <li>
                         <i class="fas fa-caret-right"></i>
-                        <a href="#skills" class="nav-link">My Skills.</a>
+                        <a href="blog/" class="nav-link">Blog</a>
                     </li>
                     <li>
                         <i class="fas fa-caret-right"></i>
-                        <a href="#projects" class="nav-link">My Projects.</a>
+                        <a href="#skills" class="nav-link">My Skills</a>
                     </li>
                     <li>
                         <i class="fas fa-caret-right"></i>
-                        <a href="#interests" class="nav-link">My Interests.</a>
+                        <a href="#projects" class="nav-link">My Projects</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-caret-right"></i>
+                        <a href="#interests" class="nav-link">My Interests</a>
                     </li>
                     <li>
                         <i class="fas fa-caret-right"></i>
@@ -64,7 +76,6 @@
                 </ul>
             </div>
         </div>
-        <!-- SIDEBAR END -->
 
         <div id="content" class="content">
             <span id="sidebar-toggle" class="sidebar-toggle">
