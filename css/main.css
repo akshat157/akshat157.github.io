@@ -73,22 +73,30 @@ hr {
 .sidebar-toggle {
     z-index: 98;
     position: fixed;
-    padding: 0;
+    /* padding-top: 2px; */
+    padding-right: 2px;
+    padding-left: 2px;
     bottom: 10px;
     margin-left: 0;
-    opacity: 0.50;
-    color: rgb(100, 100, 100);
+    color: #f7f9fb;
     font-size: 30px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: rgb(30, 30, 30);
 }
 
 .sidebar-toggle-m {
     z-index: 101;
     position: fixed;
-    padding: 0;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-left: 2px;
     bottom: 10px;
     margin-left: 0;
-    opacity: 0.50;
-    color: rgb(100, 100, 100);
+    color: #f7f9fb;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-color: rgb(30, 30, 30);
     font-size: 30px;
     display: none;
 }
