@@ -1,7 +1,7 @@
 # akshat157.github.io
 Hi! This is my website.
 Built from scratch using basic HTML/CSS and JavaScript except for the
-blog which can be found [here](https://akshat157.github.io/blog/) and its repository [here](https://github.com/akshat157/blog/).
+blog which is built using Jekyll and can be found [here](https://akshat157.github.io/blog/) and its repository [here](https://github.com/akshat157/blog/).
 
 
 ## My website is inspired by
