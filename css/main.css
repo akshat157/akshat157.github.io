@@ -58,7 +58,8 @@ a {
 
 .text-1 {
     font-family: 'Open Sans', sans-serif;
-    color: rgb(50, 50, 50)
+    color: rgb(50, 50, 50);
+    text-align: justify;
 }
 
 .text-padding {
