@@ -62,6 +62,10 @@ a {
     text-align: justify;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .text-padding {
     padding-right: 20px;
 }
@@ -204,12 +208,12 @@ hr {
 
 .social-links li {
     display: inline;
-    padding: 5px;
+    padding: 3px;
 }
 
 .sidebar .fab, .sidebar-initial .fab, .sidebar-m .fab {
     color: rgba(255, 255, 255, 0.35);
-    font-size: 28px;
+    font-size: 24px;
     transition: 0.2s;
 }
 
