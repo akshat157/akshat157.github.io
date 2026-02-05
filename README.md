@@ -1,10 +1,10 @@
-# akshat157.github.io
-Hi! This is my website.
+# [ARCHIVE] akshat157.github.io
+Hi! This was my website until 2025. Please visit https://akshatmalviya.com/ to visit my new website. Thank you!
 Built from scratch using basic HTML/CSS and JavaScript except for the
 blog which is built using Jekyll and can be found [here](https://akshat157.github.io/blog/) and its repository [here](https://github.com/akshat157/blog/).
 
 
-## My website is inspired by
+## Inspiration
 * https://futurism.com/
 * http://www.mypoorbrain.com/
 
